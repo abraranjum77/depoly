@@ -1,0 +1,593 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>East Coast Financing</title>
+	<meta name="description" content="East Coast Financing">
+	<link rel="icon" href="images/favicon.png" sizes="32x32">
+	<link rel="apple-touch-icon" href="images/favicon.png">
+	<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.carousel.min.css'>
+	<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.css'>
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+	 <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+	<link rel="stylesheet" id="site-css" href="css/style.css" type="text/css" media="all"> </head>
+
+<body>
+	<header class="site-header">
+		<div class="header-inner">
+			<a href="#" class="logo"><img src="images/logo-east.png" alt="logo"></a>
+			<label for="toggle-1" class="toggle-menu">
+				<ul>
+					<li></li>
+					<li></li>
+					<li></li>
+				</ul>
+			</label>
+			<input type="checkbox" id="toggle-1">
+			<p class="phone">Get Approved Now: <strong>
+ <a href="tel:8334626238" onclick="ga('send', 'event', 'Phone Call', 'Click to Call', '8334626238');">(833)-462-6238</a></strong></p>
+			<nav class="main-menu">
+				<ul>
+					<li><a href="#"><span><img src="images/get-approved.png" /> </span>GET APPROVED</a></li>
+					<li><a href="#"><span><img src="images/car.png" /> </span>USED CAR LOT</a></li>
+					<li><a href="#"><span><img src="images/trade.png" /> </span>TRADE-IN ESTIMATE</a></li>
+					<li>
+						<a href="#"> <span><img src="images/home-icon.png" /> </span>MORTGAGES</a>
+					</li>
+					<li class="menu-more"> <a href="#">More <span style="text-align:center;margin-bottom:0px;"><img class="more-menu-open" src="images/open-icon.png"  /> </span></a>
+						<ul class="submenu">
+							<li><a href="#"><span><img src="images/about-us.png" /></span>ABOUT US</a></li>
+							<li> <a href="#"><span><img src="images/calcu.png" /></span>CAR LOAN CALCULATOR</a></li>
+							<li><a href="#"><span><img src="images/help.png" /></span>HELP WITH FINANCING</a></li>
+							<li><a href="#"><span><img src="images/used-car.png" /></span>USED CARS LOANS NEW BRUNSWICK</a></li>
+							<li><a href="#"><span><img src="images/loan-car.png" /></span>USED CARS LOANS PRINCE EDWARD ISLAND</a></li>
+							<li><a href="#"><span><img src="images/new-found.png" /></span>USED CARS LOANS NEWFOUNDLAND</a></li>
+							<li><a href="#"><span><img src="images/hali.png" /></span>USED CARS LOANS HALIFAX</a></li>
+							<li><a href="#"><span><img src="images/sack.png" /></span>USED CARS LOANS SACKVILLE</a></li>
+							<li><a href="#"><span><img src="images/contact.png" /></span>CONTACT</a></li>
+						</ul>
+					</li>
+				</ul>
+			</nav>
+			<form action="#" class="form-search">
+				<button class="btn-search"><img src="images/search-button.png" alt="Search"></button>
+			</form>
+		</div>
+	</header>
+	<!-- filter code start -->
+	<form action="#">
+		<input type="checkbox" id="search-bar-toggle" class="visuallyhidden">
+		<input type="checkbox" id="search-bar-advanced-toggle" name="advanced" class="visuallyhidden">
+		<div class="search-bar">
+			<label for="search-bar-toggle" class="toggle-search"> Search Filters
+				<svg width="14.7" height="8.8" viewBox="0 0 14.71 8.769">
+					<path fill="none" stroke="#02233a" stroke-width="2" stroke-miterlimit="10" d="M14 .7L7.4 7.4.7.7"></path>
+				</svg>
+			</label>
+			<div class="search-bar-filters">
+				<label for="make" class="label"> <img src="images/icon-search.svg" style="margin-right:5px" alt=""> Refine Search: </label>
+				<div class="field">
+					<select name="make" id="make" class="js-filter-makes">
+						<option value="">Make</option>
+						<option value="116">Acura</option>
+					</select>
+				</div>
+				<div class="field">
+					<select name="model" id="model" class="js-filter-models">
+						<option value="">Model</option>
+					</select>
+					<select class="js-filter-models-holder" style="display: none;">
+						<option value="">Model</option>
+						<option value="199" data-parent="61">Accent</option>
+						<option value="99" data-parent="98">Camry</option>
+					</select>
+				</div>
+				<div class="field">
+					<select name="body" id="body">
+						<option value="">Body Style</option>
+						<option value="143">2 Door</option>
+						<option value="47">Coupe</option>
+						<option value="146">Crew Cab Pickup</option>
+						<option value="128">Crossover</option>
+						<option value="69">Hatchback</option>
+						<option value="152">Limo</option>
+						<option value="11">Sedan</option>
+						<option value="133">Sedan (4-Door)</option>
+						<option value="74">Sport</option>
+						<option value="122">Sports Utility Vehicle</option>
+						<option value="34">Station Wagon</option>
+						<option value="52">SUV</option>
+						<option value="162">Trailer</option>
+						<option value="82">Truck</option>
+						<option value="131">Van</option>
+					</select>
+				</div>
+				<div class="field">
+					<select name="price" id="price">
+						<option value="">Price Range</option>
+						<option value="0-2500">$0 - $2,500</option>
+						<option value="2500-5000">$2,500 - $5,000</option>
+						<option value="5000-7500">$5,000 - $7,500</option>
+						<option value="7500-10000">$7,500 - $10,000</option>
+						<option value="10000-15000">$10,000 - $15,000</option>
+						<option value="15000-20000">$15,000 - $20,000</option>
+						<option value="20000-+">$20,000+</option>
+					</select>
+				</div>
+				<div class="field">
+					<button>Update</button>
+				</div>
+				<div class="field actions">
+					<label for="search-bar-advanced-toggle" class="button toggle-advanced">Advanced Search<img src="images/select-arrow.png" style="margin-left:10px" alt=""></label>
+				</div>
+			</div>
+		</div>
+		<div class="search-bar-advanced">
+			<div class="field double">
+				<label class="form-label" for="year-from">Year</label>
+				<input type="number" name="year-from" id="year-from" placeholder="From" value=""><span class="dash"> - </span>
+				<input type="number" name="year-to" id="year-to" placeholder="To" value=""> </div>
+			<div class="field double">
+				<label class="form-label" for="km-from">Kilometers</label>
+				<input type="number" name="km-from" id="km-from" placeholder="From" value=""><span class="dash"> - </span>
+				<input type="number" name="km-to" id="km-to" placeholder="To" value=""> </div>
+			<div class="field">
+				<label class="form-label" for="transmission">Transmission</label>
+				<select name="transmission" id="transmission">
+					<option value="">Any</option>
+					<option value="automatic">Automatic</option>
+					<option value="manual">Manual</option>
+					<option value="semi-automatic">Automatic</option>
+				</select>
+			</div>
+			<div class="field">
+				<label class="form-label" for="color">Colour</label>
+				<select name="color" id="color">
+					<option value="">Any</option>
+					<option value="66">Beige</option>
+					<option value="220">Beige Leather</option>
+					<option value="7">Black</option>
+					<option value="93">Black Granite</option>
+				</select>
+			</div>
+			<div class="field">
+				<label class="form-label" for="fueltype">Fuel Type</label>
+				<select name="fueltype" id="fueltype">
+					<option value="">Any</option>
+					<option value="diesel">Diesel</option>
+					<option value="gasoline">Gasoline</option>
+					<option value="hybrid">Hybrid-Electric</option>
+					<option value="other">Other</option>
+				</select>
+			</div>
+			<div class="field">
+				<label class="form-label" for="seats">No. of Seats</label>
+				<select name="seats" id="seats">
+					<option value="">Any</option>
+					<option value="4">4</option>
+					<option value="5">5</option>
+					<option value="6+">6+</option>
+				</select>
+			</div>
+			<div class="field">
+				<label class="form-label" for="doors">No. of Doors</label>
+				<select name="doors" id="doors">
+					<option value="">Any</option>
+					<option value="4">4</option>
+					<option value="5">5</option>
+					<option value="6+">6+</option>
+				</select>
+			</div>
+			<div class="field">
+				<button>Update</button>
+			</div>
+		</div>
+	</form>
+	<article class="vehicle-post">
+		<div class="breadcrumb">
+			<div class="breadcrumbs"> <a href="/">Home</a><span>&gt;</span><a href="#">Used Car Lot</a><span>&gt;</span><a href="#">Chevrolet </a><span>&gt;</span><a href="#">Silverado </a><span>&gt;</span>2013 Chevrolet Silverado 1500 LS Cheyenne </div>
+			<div class="social-share"> <span class="share-title"> Share This Vehicle: </span>
+				<ul>
+					<li>
+						<a href="#"> <img src="images/linkden.png" /></a>
+					</li>
+					<li>
+						<a href="#"> <img src="images/pin.png" /></a>
+					</li>
+					<li>
+						<a href="#"> <img src="images/twitter.png" /></a>
+					</li>
+					<li>
+						<a href="#"> <img src="images/plus.png" /></a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="vehicle-post-columns">
+			<div class="vehicle-description">
+				<header class="article-header">
+					<h1>2013 Chevrolet Silverado 1500 LS 
+Cheyenne Edition</h1> </header>
+				<div class="vehicle-carousels">
+					<div class="all">
+						<div class="slider">
+							<div class="owl-carousel owl-theme one">
+								<div class="item-box">
+									<a data-fancybox="gallery" href="images/big-car1.png"> <img src="images/big-car1.png" /> </a>
+								</div>
+								<div class="item-box">
+									<a data-fancybox="gallery" href="images/big-car1.png"> <img src="images/big-car1.png" /> </a>
+								</div>
+								<div class="item-box">
+									<a data-fancybox="gallery" href="images/big-car1.png"> <img src="images/big-car1.png" /> </a>
+								</div>
+								<div class="item-box">
+									<a data-fancybox="gallery" href="images/big-car1.png"> <img src="images/big-car1.png" /> </a>
+								</div>
+								<div class="item-box">
+									<a data-fancybox="gallery" href="images/big-car1.png"> <img src="images/big-car1.png" /> </a>
+								</div>
+							</div>
+							<div class="left nonl">
+								<</div>
+									<div class="right">></div>
+							</div>
+							<div class="slider-two">
+								<div class="owl-carousel owl-theme two">
+									<div class="item active"> <img src="images/small-car1.png" /></div>
+									<div class="item"><img src="images/small-car2.png" /></div>
+									<div class="item"><img src="images/small-car4.png" /></div>
+									<div class="item"><img src="images/small-car5.png" /></div>
+									<div class="item"><img src="images/small-car3.png" /></div>
+									<div class="item"><img src="images/small-car4.png" /></div>
+								</div>
+								<div class="left-t nonl-t">
+									<</div>
+										<div class="right-t">></div>
+								</div>
+							</div>
+						</div>
+						<div class="features-text">
+							<p> Low kilometers! Non-smoker! Great condition! This leather loaded 2014 Chevrolet Malibu LTZ Turbo was purchased through our corporate purchasing program. Take advantage of this well maintained unit at a substantially low price! This low mileage sedan is still under the manufacturer’s warranty! Save thousands! Packed with features like leather interior, leather wrapped steering wheel with media controls, navigation, bluetooth, satellite radio, back-up camera and so much more!</p>
+							<p> <strong> If you make at least $1600/mo, we can approve you for this car today. Zero down options available.  Up to $10,000 cash back with the purchase of this vehicle. 
+ You can test drive this vehicle at the current location detailed below, or we can deliver this vehicle to your door for a test drive by completing this form:</strong> </p>
+							<div class="question-form">
+								<h2>Have a question about this vehicle? </h2>
+								<p> Please fill out the following to talk with an agent:</p>
+								<form>
+									<div class="field-name">
+										<input type="text" placeholder="First Name" /> </div>
+									<div class="field-name">
+										<input type="text" placeholder="Last Name" /> </div>
+									<div class="field-phone">
+										<input type="tel" placeholder="Last Name" /> </div>
+									<div class="field-email">
+										<input type="email" placeholder="Last Name" /> </div>
+									<div class="field-textarea">
+										<textarea>I would like to arrange a test drive, get more information or inquire about financing this vehicle. </textarea>
+									</div>
+									<button type="Submit" class="question-sub"> Submit </button>
+								</form>
+							</div>
+							<ul class="vehicle-features">
+								<li>Air Conditioning</li>
+								<li>Alloy Wheels</li>
+								<li>Anti-Lock Brakes (ABS)</li>
+								
+								<li>Anti-Theft</li>
+								<li>CD Player</li>
+								<li>Dual Airbag</li>
+								<li>Fog Lights</li>
+								<li>Keyless Entry</li>
+								<li>Power Brakes</li>
+								<li>Power Mirrors</li>
+								<li>Power Steering</li>
+								<li>Power Windows</li>
+								<li>Rear Defroster</li>
+								<li>Side Impact Airbag</li>
+								<li>Tilt Steerin</li>
+								<li>Bucket Seats</li>
+								<li>Heated Seats</li>
+								<li>Power Locks</li>
+								<li>Traction Control</li>
+								<li>Cruise Control</li>
+								<li>Heated Exterior Mirrors</li>
+								<li>Block Heater</li>
+								<li>Stability Control</li>
+								<li>Cloth Interior</li>
+								<li>Auxiliary 12v Outlet</li>
+								<li>Digital Clock</li>
+								<li>Tinted Windows</li>
+								<li>Inside Hood Release</li>
+								<li>Climate Control</li>
+								<li>Rear Defroster</li>
+								<li>Side Impact Airbag</li>
+								<li>Tilt Steerin</li>
+								<li>Bucke</li>
+							</ul>
+							<div class="ecf"> 
+							
+							<img src="images/cer-ecf.png" />
+							<p> This vehicle is fully inspected and certified for the road by East Coast Financing. </p>
+							</div>
+							<div class="value-trade">
+							<div> <h4>Value Your Trade </h4> </div>
+							<div class="field">
+							<input type="text" placeholder="Enter Year Make Model Trim">
+							</div>
+							<div class="power">
+							<span class="small-power"> POWERD BY </span>
+							<span>TRADEPENDING </span>
+							</div>
+							</div>
+							<div class="check-rate">
+							<a href="#"> <img src="images/check-rate.png" /></a>
+							</div>
+						</div>
+					</div>
+					<aside class="vehicle-info">
+						<div class="vehicle-info-card">
+						<div class="vech-info-header"> 
+						
+						<div class="price-show">
+						<span>$13,495 </span>
+						<h4>$13,495 </h4>
+						
+						</div>
+						
+						</div>
+							<div class="vin"><small>VIN: </small>2HKRM4H40GH125717</div>
+							<dl>
+							    <dt>Body</dt>
+								<dd>Sedan</dd><dt>Mileage</dt>
+								<dd>100</dd><dt>Fuel type</dt>
+								<dd>Hybrid</dd><dt>Engine </dt>
+								<dd>
+2000</dd><dt>Year</dt>
+								<dd>2015</dd><dt>Transmission</dt>
+								<dd>Automatic</dd><dt>Drive</dt>
+								<dd>RWD</dd><dt>Fuel</dt>
+								<dd>15.3</dd>
+								<dt>Exterior color</dt>
+								<dd>Red Multi-Coat</dd>
+								<dt>Interior color</dt>
+								<dd>Jet Black</dd>
+							</dl>
+							
+						</div>
+					<div class="vehicle-map">
+						<div class="map-header"> 
+						
+						<h3>
+						VEHICLE’S CURRENT LOCATION
+						</h3>
+						<div class="cal-icon"> <img src="images/map-icon.png" /> </div>
+						</div>
+							<div class="map" >332 Sackville Dr, Lower Sackville</div>
+    <div id="map" style="height:300px"></div>							
+						</div>
+						<div class="calculator-header"> 
+						
+						<h3>
+						CALCULATE YOUR LOAN PAYMENT ON THIS VEHICLE
+						</h3>
+						<div class="cal-icon"> <img src="images/cal-icon.png" /> </div>
+						</div>
+						<div class="quick-calculator">
+							
+							<div class="fields-container">
+								<div class="field">
+									<label class="form-label" for="calc-price">Vehicle price <span>($)</span></label>
+									<input type="text" class="calc-field" id="calc-price" name="calc-price" value="$23500"> </div>
+								<div class="field size-xl">
+									<label class="form-label" for="calc-interest">Interest rate <span>(%)</span></label>
+									<input type="text" class="calc-field" id="calc-interest" name="calc-interest" value=""> </div>
+								<div class="field size-xl">
+									<label class="form-label" for="calc-period">Period <span>(months)</span></label>
+									<input type="text" class="calc-field" id="calc-period" name="calc-period" value=""> </div>
+								<div class="field">
+									<label class="form-label" for="calc-payment">Down payment <span>($)</span></label>
+									<input type="text" class="calc-field" id="calc-payment" name="calc-payment" value=""> </div>
+								<div class="field">
+									<button class="button-full ">calculate</button>
+								</div>
+							</div>
+						
+						</div>
+						</div>
+					</aside>
+				</div>
+	</article>
+	<section class="inventory-section related-items">
+	<div class="similar-vech-header"> <h4>Similar Vehicles </h4> </div>
+		<ol class="vehicles-list">
+			<li>
+				<a href="#">
+					<div class="image"> <img src="images/car1.png" class="attachment-thumbnail size-thumbnail wp-post-image" alt="Image">
+						<div class="sold"> SOLD! </div>
+					</div>
+					<div class="meta">
+						<div class="name-type"> <span class="title">2013 Toyota Corolla CE </span> <span class="type">
+Sedan
+					  </span> </div>
+						<div class="kilo-price"> <span class="price sold-price">$14,995</span> <span class="kilometers">103,000 km</span> </div>
+					</div>
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<div class="image"> <img src="images/car2.png" class="attachment-thumbnail size-thumbnail wp-post-image" alt="Image">
+						<div class="tags">
+							<div class="post-tag"><span> <small>Sale  </small>$13,495</span></div>
+						</div>
+					</div>
+					<div class="meta">
+						<div class="name-type"> <span class="title">2015 Volkswagen Jetta  </span> <span class="type">
+Sedan
+					  </span> </div>
+						<div class="kilo-price"> <span class="price sale-price">$14,995</span> <span class="kilometers">103,000 km</span> </div>
+					</div>
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<div class="image"> <img src="images/car3.png" class="attachment-thumbnail size-thumbnail wp-post-image" alt="Image"></div>
+					<div class="meta">
+						<div class="name-type"> <span class="title">Blue 2008 Honda Civic DX Automatic 4 Door  </span> <span class="type">
+Sedan
+					  </span> </div>
+						<div class="kilo-price"> <span class="price">$14,995</span> <span class="kilometers">103,000 km</span> </div>
+					</div>
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<div class="image"> <img src="images/PHOTOS-PENDING.png" class="attachment-thumbnail size-thumbnail wp-post-image" alt="Image"></div>
+					<div class="meta">
+						<div class="name-type"> <span class="title">2010 Pontiac Montana Black Minivan, Van</span> <span class="type">
+
+					  </span> </div>
+						<div class="kilo-price"> <span class="price">$14,995</span> <span class="kilometers">103,000 km</span> </div>
+					</div>
+				</a>
+			</li>
+			
+		</ol>
+		
+	</section>
+	
+	<footer class="footer">
+		<div class="footer-inner">
+			<div class="footer-col">
+				<p class="footer-title footer-title-center"> We're the Top-Rated Used Car Loan Dealer on:</p>
+				<div class="rating">
+					<ul>
+						<li> <span> <img src="images/google.png" /> </span> 4.8 <span class="star"> <img src="images/star.png" /><img src="images/star.png" /><img src="images/star.png" /><img src="images/star.png" /><img src="images/star.png" /></span>
+							<li>
+								<li> <span> <img src="images/facebook.png" /> </span> 4.4 <span class="star"> <img src="images/star.png" /><img src="images/star.png" /><img src="images/star.png" /><img src="images/star.png" /><img src="images/half-star.png" /></span>
+									<li>
+										<li> <span> <img src="images/b.png" /> </span> 5.0 <span class="star"> <img src="images/star.png" /><img src="images/star.png" /><img src="images/star.png" /><img src="images/star.png" /><img src="images/star.png" /></span>
+											<li>
+					</ul>
+					<div class="rating-button">
+						<button type="button"> GET PRE-APPROVED INSTANTLY </button>
+					</div>
+				</div>
+			</div>
+			<div class="footer-col">
+				<p class="footer-title"> Finance Call Center</p>
+				<p class="timing"><span>Mon-Sat: </span> 9am–10pm </p>
+				<p class="timing"><span>Sunday:</span> 9am–8pm </p>
+				<p class="footer-title"> Showroom/lot Hours</p>
+				<p class="timing"><span>Mon-Sat: </span> 9am–6pm </p>
+				<p class="timing"><span>Sunday:</span>Closed </p>
+			</div>
+			<div class="footer-col">
+				<p class="footer-title"> Finance Services</p>
+				<ul class="resources">
+					<li><a href="#">Get Approved</a></li>
+					<li><a href="#">Mortgages</a></li>
+					<li><a href="#">Used Car Lot  </a></li>
+					<li><a href="#">Help With Financing</a></li>
+					<li><a href="#">Trade-in Estimate  </a></li>
+					<li><a href="#">About Us</a></li>
+					<li><a href="#">Car Loan Calculator</a></li>
+					<li><a href="#">Contact</a></li>
+					<li><a href="#">Privacy Policy </a></li>
+					<li><a href="#">Terms Of Use </a></li>
+				</ul>
+			</div>
+			<div class="footer-col fourth-col">
+				<p class="footer-title"> Do you need help? Call us toll free:</p>
+				<p class="phone-footer"><a href="tel:8334626238" onclick="ga('send', 'event', 'Phone Call', 'Click to Call', '8334626238');">(833)-462-6238</a></p>
+				<p class="office-address"> <span>Halifax Office: </span> <a class="ofc-phone" href="tel:9024175701" onclick="ga('send', 'event', 'Phone Call', 'Click to Call', '9024175701');"> (902)-417-5701</a> </p>
+				<p class="copy-right">© 2022 East Coast Financing. </p>
+			</div>
+			<div class="footer-col last-col" style="padding-left:0px;"> <img src="images/footer-dog.png" /> </div>
+		</div>
+	</footer>
+	
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js'></script>
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.js'></script>
+	    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&callback=initMap&v=weekly&channel=2"
+      async
+    ></script>
+	<script src="js/script.js"></script>
+	
+	<script type='text/javascript'>
+$(function(){
+var overlay = $('<div id="overlay"></div>');
+overlay.delay(6000).show(0);
+overlay.appendTo(document.body);
+$('.popup').delay(6000).show(0);
+$('.close').click(function(){
+$('.popup').hide();
+overlay.appendTo(document.body).remove();
+return false;
+});
+
+
+ 
+
+$('.x').click(function(){
+$('.popup').hide();
+overlay.appendTo(document.body).remove();
+return false;
+});
+});
+</script>
+<div class='popup'>
+
+<div class='cnt223'>
+<div class="regsister-logo"> <img src="images/regsister-logo.png" /> </div>
+<h4>You seem Interested in this <span>2017 Dodge Grand Caravan Special SE.... </span></h4>
+<p>
+Want to arrange to a test drive? Or have questions about financing this vehicle? Tell us what you want!:
+<form>
+									<div class="field-name">
+										<input type="text" placeholder="First Name"> </div>
+									<div class="field-name">
+										<input type="text" placeholder="Last Name"> </div>
+									<div class="field-phone">
+										<input type="tel" placeholder="Last Name"> </div>
+									<div class="field-email">
+										<input type="email" placeholder="Last Name"> </div>
+									<div class="field-textarea">
+										<textarea>Tell us what you want....</textarea>
+									</div>
+									<button type="Submit " class="popup-sub"> Submit </button>
+								</form>
+								<p class="not-in">
+								No, not interested.
+								
+								</p>
+<div class="" style="text-align:center"><a href='' class='close'>x</a> </div>
+</p>
+</div>
+</div>
+	<script>
+	// This example adds a marker to indicate the position of Bondi Beach in Sydney,
+// Australia.
+function initMap() {
+  const map = new google.maps.Map(document.getElementById("map"), {
+    zoom: 16,
+    center: { lat: 44.761840, lng: -63.674130 },
+  });
+  const image =
+    "images/favicon.png";
+  const beachMarker = new google.maps.Marker({
+    position: { lat: 44.761840, lng: -63.674130 },
+    map,
+    icon: image,
+  });
+}
+	
+	</script>
+	
+</body>
+
+</html>
